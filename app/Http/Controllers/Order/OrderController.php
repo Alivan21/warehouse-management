@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers\Order;
 
-use App\Http\Controllers\Base\OrderController as BaseOrderController;
+use App\Http\Controllers\Base\SuperOrderController;
 use App\Models\Order;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class OrderController extends BaseOrderController
+class OrderController extends SuperOrderController
 {
     /**
      * Display a listing of the resource.

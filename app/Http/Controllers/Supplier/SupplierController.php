@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers\Supplier;
 
-use App\Http\Controllers\Base\SupplierController as BaseSupplierController;
+use App\Http\Controllers\Base\SuperSupplierController;
 use App\Models\Supplier;
 use Illuminate\Http\Request;
 
-class SupplierController extends BaseSupplierController
+class SupplierController extends SuperSupplierController
 {
     /**
      * Display a listing of the resource.

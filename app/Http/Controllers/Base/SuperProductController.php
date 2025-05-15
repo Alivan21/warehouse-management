@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Base;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class SuperProductController extends Controller
 {
     // Common helper methods for product management
     protected function validateProductData(Request $request): array

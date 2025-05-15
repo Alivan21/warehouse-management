@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Base;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class OrderController extends Controller
+class SuperOrderController extends Controller
 {
     // Common helper methods for order management
     protected function validateOrderData(Request $request): array

@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers\Product;
 
-use App\Http\Controllers\Base\ProductController as BaseProductController;
+use App\Http\Controllers\Base\SuperProductController;
 use App\Models\Product;
 use App\Models\Supplier;
 use Illuminate\Http\Request;
 
-class ProductController extends BaseProductController
+class ProductController extends SuperProductController
 {
     /**
      * Display a listing of the resource.

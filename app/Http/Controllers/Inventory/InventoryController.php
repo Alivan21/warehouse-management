@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers\Inventory;
 
-use App\Http\Controllers\Base\InventoryController as BaseInventoryController;
+use App\Http\Controllers\Base\SuperInventoryController;
 use App\Models\Inventory;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
-class InventoryController extends BaseInventoryController
+class InventoryController extends SuperInventoryController
 {
     /**
      * Display a listing of the resource.

@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Base;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class SupplierController extends Controller
+class SuperSupplierController extends Controller
 {
     // Common helper methods for supplier management
     protected function validateSupplierData(Request $request): array

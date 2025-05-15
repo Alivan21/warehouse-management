@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Base;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class InventoryController extends Controller
+class SuperInventoryController extends Controller
 {
     // Common helper methods for inventory management
     protected function validateInventoryData(Request $request): array
